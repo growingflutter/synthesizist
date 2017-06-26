@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* line 16, ../../_scss/style.scss */
+* {
+  font-size: inherit;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: normal;
+  list-style-type: none; }
+
+/* line 25, ../../_scss/style.scss */
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #f7f7f7;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif; }
+
+/* line 33, ../../_scss/style.scss */
+div#catch {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0; }
+
+/* line 39, ../../_scss/style.scss */
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px; }
+/* line 43, ../../_scss/style.scss */
+header .title {
+  font-size: 30px;
+  letter-spacing: 5px; }
+/* line 46, ../../_scss/style.scss */
+header .title a {
+  text-decoration: none;
+  color: #fff; }
+/* line 51, ../../_scss/style.scss */
+header .sub {
+  font-size: 11px;
+  margin-top: 5px; }
+
+/* line 57, ../../_scss/style.scss */
+#headtitle {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+
+/* line 63, ../../_scss/style.scss */
+#mainBody {
+  background-color: #f7f7f7; }
+/* line 65, ../../_scss/style.scss */
+#mainBody li {
+  width: 250px;
+  margin: 15px;
+  background-color: #fff;
+  float: left; }
+
+/* line 73, ../../_scss/style.scss */
+#headtitle {
+  padding: 30px; }
+/* line 74, ../../_scss/style.scss */
+#headtitle a {
+  color: #fff;
+  text-decoration: none; }
+/* line 82, ../../_scss/style.scss */
+#headtitle .title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 20px 0; }
+
+/* line 91, ../../_scss/style.scss */
+.flex-container {
+  -webkit-flex-wrap: wrap;
+  /* Safari */
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  /* Safari */
+  justify-content: space-around; }
+/* line 99, ../../_scss/style.scss */
+.flex-container li .catch {
+  width: 100%; }
+/* line 101, ../../_scss/style.scss */
+.flex-container li .catch img {
+  width: 100%;
+  height: auto; }
+/* line 106, ../../_scss/style.scss */
+.flex-container li a {
+  color: #333;
+  text-decoration: none; }
+/* line 110, ../../_scss/style.scss */
+.flex-container li p.date {
+  font-size: 12px;
+  margin: 5px 10px; }
+/* line 114, ../../_scss/style.scss */
+.flex-container li .maintitle {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 5px 10px; }
+/* line 121, ../../_scss/style.scss */
+.flex-container li .content p {
+  font-size: 12px;
+  margin: 5px 10px; }
+
+/* line 130, ../../_scss/style.scss */
+#secondary {
+  position: absolute;
+  right: 0;
+  top: 370px;
+  width: 250px;
+  padding: 10px;
+  text-align: center; }
+/* line 137, ../../_scss/style.scss */
+#secondary .screen-reader-text {
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block; }
+/* line 143, ../../_scss/style.scss */
+#secondary .searchUnit {
+  display: table;
+  margin: 10px;
+  width: 100%; }
+/* line 147, ../../_scss/style.scss */
+#secondary .searchUnit input.search-field {
+  display: table-cell;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: none;
+  border: 1px solid #DDD;
+  font-size: 12px;
+  border-right: 0; }
+/* line 157, ../../_scss/style.scss */
+#secondary .searchUnit button.search-submit {
+  display: table-cell;
+  width: 20%;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #DDD;
+  background-color: #fff;
+  padding: 8px 0 9px 0;
+  position: relative;
+  top: 1px; }
+
+/* line 171, ../../_scss/style.scss */
+.entry-content {
+  padding: 20px 20px;
+  font-size: 14px;
+  line-height: 170%;
+  width: 600px;
+  margin: auto;
+  background-color: #f7f7f7; }
+/* line 181, ../../_scss/style.scss */
+.entry-content p {
+  line-height: 200%; }
+/* line 184, ../../_scss/style.scss */
+.entry-content h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 40px 0 10px 0;
+  line-height: 170%; }
+/* line 190, ../../_scss/style.scss */
+.entry-content strong {
+  font-weight: bold;
+  font-size: 110%;
+  display: block;
+  padding: 15px;
+  color: #333; }
+/* line 198, ../../_scss/style.scss */
+.entry-content img {
+  display: block;
+  margin: 10px auto; }
+/* line 202, ../../_scss/style.scss */
+.entry-content ul {
+  margin: 10px 5px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px; }
+/* line 207, ../../_scss/style.scss */
+.entry-content ul li {
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px dotted #DDD; }
+/* line 211, ../../_scss/style.scss */
+.entry-content ul li :last-child {
+  border-bottom: 0; }
+
+/* line 219, ../../_scss/style.scss */
+.bg {
+  background-color: #f7f7f7; }
+
+@media screen and (max-width: 768px) {
+  /* line 224, ../../_scss/style.scss */
+  .entry-content {
+    padding: 0px;
+    font-size: 15px;
+    line-height: 200%;
+    width: 100%; }
+  /* line 229, ../../_scss/style.scss */
+  .entry-content p {
+    line-height: 170%;
+    margin: 0 10px; }
+  /* line 233, ../../_scss/style.scss */
+  .entry-content h1 {
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    padding: 10px; }
+  /* line 239, ../../_scss/style.scss */
+  .entry-content strong {
+    margin: 5px; }
+  /* line 242, ../../_scss/style.scss */
+  .entry-content ul {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 0px; }
+  /* line 247, ../../_scss/style.scss */
+  .entry-content ul li {
+    font-weight: normal;
+    padding: 2px;
+    border-bottom: 1px dotted #DDD; }
+  /* line 251, ../../_scss/style.scss */
+  .entry-content ul li :last-child {
+    border-bottom: 0; }
+
+  /* line 259, ../../_scss/style.scss */
+  #secondary {
+    position: static;
+    width: 100%; }
+
+  /* line 263, ../../_scss/style.scss */
+  #search-2 {
+    display: none; } }
