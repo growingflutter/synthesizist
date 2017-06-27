@@ -1,0 +1,45 @@
+*{
+    font-size: inherit;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: normal;
+    list-style-type: none;
+}
+body{
+    padding:0 !important;
+    margin:0 !important;
+    font-family:'Lucida Grande',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3' Meiryo, メイリオ, sans-serif;
+    background-image: url(../../imageFile/background.jpg)
+}
+
+#sidemenu{
+    width: 280px;
+    height: 100%;
+    position: absolute;
+    a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 15px;
+        letter-spacing: 1px;
+        
+    }
+}
+
+#logoDiv{
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top:250px;
+    div.text{
+        width: 450px;
+        margin: auto;
+        color: #fff;
+        line-height: 140%;
+    }
+}
